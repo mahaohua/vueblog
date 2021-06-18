@@ -1,11 +1,11 @@
 import Vue from 'vue'
-import Router from 'vue-router'
+import VueRouter from 'vue-router'
 import Login from '../views/Login.vue'
 import BlogDetail from '../views/BlogDetail.vue'
 import BlogEdit from '../views/BlogEdit.vue'
-Vue.use(Router)
+Vue.use(VueRouter)
 
-const routes: [
+const routes = [
     {
       path: '/',
       name: 'Index',
